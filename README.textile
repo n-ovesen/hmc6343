@@ -14,6 +14,8 @@ h2. Getting Started
 
 Hook it up to the i2c pins on your arduino (A4 and A5 or the dedicated pins on newer versions)
 
+If you are using a 5v arduino as most people you should also throw in a 5v - 3v logic level converter to make sure you don't get 150USD worth of blue smoke, unless that's your thing of course.
+
 h2. Software
 
 You need some way of compiling and uploading it to your arduino (DUH!)
