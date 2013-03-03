@@ -1,0 +1,27 @@
+h1. PathCalc
+
+	AUTHOR:		Nikolai Andre Ek Ovesen
+	EMAIL:		nikolai.ovesen@gmail.com
+	GIT:		https://github.com/n-ovesen/
+	Web:		http://nikolaiovesen.com
+
+h2. Summary
+
+Wrote a quick library to interface with the HMC6343 tilt compensated compass unit with an arduino,
+not that its anything even remotely close to complicated, this just simplifies the job.
+
+h2. Getting Started
+
+Hook it up to the i2c pins on your arduino (A4 and A5 or the dedicated pins on newer versions)
+
+h2. Software
+
+You need some way of compiling and uploading it to your arduino (DUH!)
+
+For the coding examples I have used the streaming library to output things to the serial line
+just because it makes it a lot easier than the horrendously tedious print statements you are forced to use by default.
+
+you can find the streaming library here: http://arduiniana.org/libraries/streaming/
+
+if you can't figure out how to print the data without this library you've pretty much wasted 150USD on some really advanced kit you'll never get use for.
+
