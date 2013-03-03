@@ -1,4 +1,4 @@
-h1. PathCalc
+h1. HMC6343
 
 	AUTHOR:		Nikolai Andre Ek Ovesen
 	EMAIL:		nikolai.ovesen@gmail.com
