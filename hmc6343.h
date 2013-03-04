@@ -30,7 +30,6 @@ You should have received a copy of the GNU General Public License
 #define HEADING_REG 0x50
 #define TILT_REG 0x55
 
-
 using namespace std;
 
 class hmc6343 {
@@ -45,8 +44,6 @@ class hmc6343 {
 		void readHeading(float& x, float& y, float& z);
 		void readTemp(float& temperature);
 
-			
-	
 };
 
 #endif	/* COORDINATE_H */
