@@ -26,24 +26,24 @@ hmc6343::hmc6343(){
 void hmc6343::readReg(byte reg, float& a, float& b, float& c){
 
 	byte highByte, lowByte;
-	Wire.beginTransmission(HMC6343_ADDRESS);    // Start communicating with the HMC6343 compasss
-	Wire.write(reg);             // Send the address of the register that we want to read
+	Wire.beginTransmission(HMC6343_ADDRESS);   
+	Wire.write(reg);             
 	Wire.endTransmission();
 
-	Wire.requestFrom(HMC6343_ADDRESS, 6);    // Request six bytes of data from the HMC6343 compasss
-	while(Wire.available() < 1);             // Busy wait while there is no byte to receive
+	Wire.requestFrom(HMC6343_ADDRESS, 6);    
+	while(Wire.available() < 1);             
 
-	highByte = Wire.read();              // Reads in the bytes and convert them into proper degree units.
+	highByte = Wire.read();              
 	lowByte = Wire.read();
-	a = ((highByte << 8) + lowByte); // the heading in degrees
-
-	highByte = Wire.read();
-	lowByte = Wire.read();
-	b = ((highByte << 8) + lowByte);   // the pitch in degrees
+	a = ((highByte << 8) + lowByte); 
 
 	highByte = Wire.read();
 	lowByte = Wire.read();
-	c = ((highByte << 8) + lowByte);    // the roll in degrees
+	b = ((highByte << 8) + lowByte); 
+
+	highByte = Wire.read();
+	lowByte = Wire.read();
+	c = ((highByte << 8) + lowByte); 
 	return;
 }
 
