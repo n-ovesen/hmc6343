@@ -1,4 +1,3 @@
-
 #include <Wire.h>
 #include <Streaming.h>
 #include "hmc6343.h"
@@ -7,12 +6,12 @@ hmc6343 hmc;
 float x,y,z,heading,roll,pitch,temperature;
  
 void setup() {
-	Serial.begin(115200);
-	
-	
+
+	Serial.begin(115200);	
 }
  
 void loop() {
+
 	hmc.readAcc(x,y,z);
 	
 	Serial << "Accelerometer values: " << endl;
