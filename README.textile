@@ -32,3 +32,23 @@ Please do not hesitate to send me an email with the problem and what sort of ard
 
 And of course if you have some solution to something your solution will be marked with comments within the appropiate section of code :)
 
+h2. Licensing
+
+HMC6343 – A library to interface an i2c compatible arduino with the HMC6343
+Tilt compensated compass.
+Copyright © 2013 Nikolai Andre Ek Ovesen
+All rights reserved.
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this library. If not, see <http://www.gnu.org/licenses/>.
+
