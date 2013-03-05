@@ -8,7 +8,7 @@ h1. HMC6343
 h2. Summary
 
 Wrote a quick library to interface with the HMC6343 tilt compensated compass unit with an arduino,
-not that its anything even remotely close to complicated, this just simplifies the job.
+even though this is not a complicated unit to interface with this simplifies the job further.
 
 h2. Getting Started
 
