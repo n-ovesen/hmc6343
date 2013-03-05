@@ -20,12 +20,11 @@ h2. Software
 
 You need some way of compiling and uploading it to your arduino (DUH!)
 
-For the coding examples I have used the streaming library to output things to the serial line
-just because it makes it a lot easier than the horrendously tedious print statements you are forced to use by default.
+h2. Todo list:
 
-you can find the streaming library here: http://arduiniana.org/libraries/streaming/
-
-if you can't figure out how to print the data without this library you've pretty much wasted 150USD on some really advanced kit you'll never get use for.
+	- Make a function for calibration
+	- Make a function to set the orientation of the device (by default it should be placed flat)
+	- Make schematics to show how to wire the HMC6343 to the arduino
 
 h2. Licensing
 
