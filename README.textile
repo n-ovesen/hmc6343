@@ -28,7 +28,9 @@ h2. Todo list:
 
 h2. Found some bugs issues or some improvement?
 
-Please do not hesitate to send me an email with the problem and what sort of arduino you are using and what you did to create the bug/problem
+Please do not hesitate to send me an email with the problem and what sort of arduino you are using and what you did to create the bug/problem.
+
+And of course if you have some solution to something your solution will be marked with comments within the appropiate section of code :)
 
 h2. Licensing
 
