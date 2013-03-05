@@ -26,6 +26,10 @@ h2. Todo list:
 	- Make a function to set the orientation of the device (by default it should be placed flat)
 	- Make schematics to show how to wire the HMC6343 to the arduino
 
+h2. Found some bugs issues or some improvement?
+
+Please do not hesitate to send me an email with the problem and what sort of arduino you are using and what you did to create the bug/problem
+
 h2. Licensing
 
 HMC6343 - A small library for Arduino to interface with the HMC6343 tilt compensated compass.
