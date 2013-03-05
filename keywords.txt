@@ -1,0 +1,10 @@
+hmc6343 	KEYWORD1
+readAcc 	KEYWORD2
+readMag		KEYWORD2	
+readHeading KEYWORD2
+readTemp	KEYWORD2
+		
+		void readAcc(float& x, float& y, float& z);
+		void readMag(float& x, float& y, float& z);
+		void readHeading(float& x, float& y, float& z);
+		void readTemp(float& temperature);
