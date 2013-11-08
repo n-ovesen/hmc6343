@@ -31,6 +31,7 @@
 #define HMC6343_H
 
 #include <Arduino.h>
+#include <Wire.h>
 
 //Defines the addresses for the various registers on the HMC6343
 
