@@ -59,15 +59,15 @@ void hmc6343::readReg(byte reg, float& a, float& b, float& c){
 
 	highByte = Wire.read();              
 	lowByte = Wire.read();
-	a = ((highByte << 8) + lowByte); 
+	a = (int16_t)((highByte << 8) | lowByte);
 
 	highByte = Wire.read();
 	lowByte = Wire.read();
-	b = ((highByte << 8) + lowByte); 
+	b = (int16_t)((highByte << 8) | lowByte);
 
 	highByte = Wire.read();
 	lowByte = Wire.read();
-	c = ((highByte << 8) + lowByte); 
+	c = (int16_t)((highByte << 8) | lowByte);
 	return;
 }
 
